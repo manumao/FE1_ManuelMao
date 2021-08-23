@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}    
+
+
+header {
+    width: 100%;
+    height: 105px;
+    position: relative;
+    font-size: 20px;
+    background-color: #222222;
+}
+
+.navegador{
+    display: flex;
+    justify-content:  flex-end;  /* para el main axis*/
+    margin-right: 10px;
+    color:white;
+}
+.navegador div{
+    margin: 5px;
+    bottom: 45px; /*muevo la posicion de los divs dentro del navegador unos 45 pixeles*/
+    position: relative;
+    margin-left: 20px;
+}
+
+.logo{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px ;
+}
+
+.box{
+    height: 350px ;
+    width: 490px;
+}
+
+.uno{
+    background-image: url('img/delivery.jpg');
+    margin-right: 5px;
+}
+
+.dos{
+    margin-left: 5px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+
+}
+
+.texto{
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.rojo{
+    color: red;
+}
+.blanco{
+    color: white;
+}
+
+.titulo{
+    height: 20px;
+    width: 490px;
+    color: red;
+    position: relative;
+    text-align: center;
+    bottom: 38px;
+/* } */
+
+.fotoPizza{
+    position: relative;
+    margin-left: 40px;
+    width: 92px;
+    height: 129px;
+}
+ol{
+    background-image: url();
+    line-height: 27px;
+    font-weight: bold;
+}
+img
+h2{
+    margin-top: 40px;
+}
