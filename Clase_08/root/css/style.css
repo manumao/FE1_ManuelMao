@@ -1,0 +1,29 @@
+header{
+    background-image: url("../img/39637C_2.jpg");
+    height: 140px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: line-through;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+body{
+    background-image: url("../img/IMG_6442.jpg");
+    background-repeat: repeat;
+    background-size: 520px;
+}
+
+a{
+    text-align: left;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Otomanopee One', sans-serif;
+
+}
+
