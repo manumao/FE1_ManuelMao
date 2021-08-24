@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    height: 100%;
+    width: 100%;
+    /*Color Variables */
+    --primary-color: #222222;
+    --main-color: #F3F3F3;
+    --footer-color: #C4C4C4;
+}
+
+@media (min-width: 768px){
+
+/* Encabezado */
+    header{
+        background-color: var(--primary-color);
+        height: 8vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 45%;
+    }
+
+    .contenedorNav{
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Menu de Navegacion */
+
+    .navMenu{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navList{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navList li{
+        padding: 10px 20px;
+    }
+
+    .navList li a{
+        width: 100%;
+        height: 100%;
+        font-size: 1.5rem;
+        color: #F3F3F3;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    /* Carrito Compra */
+    .fa-shopping-cart{
+        font-size: 3rem;
+        color: #D01418;
+    }
+
+/* Contenedor Imagen */
+
+    .contenedorImagen{
+        width: 100%;
+        height: 40vh;
+
+        background-image: url('/img/fondo.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedorImagen h1{
+        color: white;
+        font-size: 3rem;
+    }
+    .contenedorImagen h1::before{
+        content: '25%';
+        color: red;
+    }
+
+    .btnComprar{
+        width: 15%;
+        padding: 20px 0px;
+        margin-top: 20px;
+        background: #D01418;
+        border-radius: 5px;
+        border: none;
+        font-size: 2.5rem;
+        color: white;
+        text-align: center;
+    }
+
+/* Lista Productos  Destacados*/
+
+main{
+    background-color: var(--main-color);
+    height: 60vh;
+}
+.contenedorProductosDestacados{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorProductosDestacados h2{
+    margin: 20px 0px;
+    font-size: 2.5rem;
+}
+.listaProductos{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+/* Producto Destacado */
+    .producto{
+        background-color: #FFF;
+        height: 500px;
+        width: 22%;
+        border-radius: 5px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    hr{
+        width: 100%;
+        background-color: black;
+    }
+    .producto .contenido{
+        margin: 10px 0px;
+        width: 80%;
+
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .precio{
+        font-size: 1.5em;
+    }
+    .precio::before{
+        content: '$ ';
+    }
+    .cuotas{
+        font-size: 1.2em;
+    }
+    .envio{
+        font-size: 1em;
+        color: #619D00
+    }
+
+    /* Producots Destacados */
+
+    .contenedorProductosEstrella{
+        margin-top: 100px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedorProductosEstrella h2{
+        font-size: 2.5rem;
+    }
+
+    .productosDestacados{
+        width: 80%;
+        height: 15vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .sillaGamer{
+        width: 30%;
+        height: 200px;
+        background-image: url('/img/sillasGamer.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .sillaGamer span{
+        font-size: 30px;
+        color: #F3F3F3;
+        margin-right: 10px;
+        
+    }
+
+    .computadoras{
+        width: 30%;
+        height: 200px;
+        background-image: url('/img/computadoras.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .computadoras span{
+        font-size: 30px;
+        color: #F3F3F3;
+        margin-right: 10px;
+        
+    }
+
+/* Redes y Logo */
+.redesLogo{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;}
+
+
+.contenedorRedes{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.contenedorRedes h3{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #F3F3F3
+}
+.redesList{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.redesList li a{
+    font-size: 2.5rem
+}
+
+.fa-facebook-square{
+    color: #1476D0;
+}
+
+.fa-twitter-square{
+    color:#14AED0;
+}
+
+.fa-instagram{
+    color: #CE0CFF;
+}
+
+/* Footer */
+
+footer{
+    height: 3vh;
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    text-align: center;
+    font: 1rem;
+}
+
+/* ANIMACION Y TRANSICIONES */
+
+.sillaGamer, .computadoras{
+    transition: box-shadow .4s;
+}
+.sillaGamer:hover, .computadoras:hover{
+    box-shadow: 0px 0px 25px rgba(0,0,0, .7);
+}
+
+.fa-shopping-cart{
+    transition: transform .8s;
+}
+.fa-shopping-cart:hover{
+    transform: rotate(360deg);
+}
+
+.redesList li a i{
+    transition: box-shadow .4s;
+}
+
+.redesList li a i:hover{
+    box-shadow: 0px 0px 12px 5px currentColor;
+}
+
+
+}

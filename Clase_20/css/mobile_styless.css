@@ -1,0 +1,256 @@
+@media (max-width: 480px) {
+
+    header{
+        height: 8vh;
+        background-color: var(--primary-color);
+    }
+
+    .contenedorNav{
+        display: none;
+    }
+
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo a img{
+        height: 50px;
+    }
+
+/* Contenedor Imagen */
+.contenedorImagen{
+    width: 100%;
+    height: 30vh;
+    background-image: url('/img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorImagen h1{
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.contenedorImagen h1::before{
+    content: '25%';
+    color: red;
+}
+
+.btnComprar{
+    width: 30%;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    background: #D01418;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+/* Lista Productos  Destacados*/
+
+main{
+    background-color: var(--main-color);
+}
+.contenedorProductosDestacados{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedorProductosDestacados h2{
+    margin: 20px 0px;
+    font-size: 1.5rem;
+}
+.listaProductos{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+    justify-content: space-around;
+}
+
+/* Producto Destacado */
+.producto{
+    background-color: #FFF;
+    height: 400px;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.producto img{
+    height: 200px;
+    width: 150px;
+}
+hr{
+    width: 100%;
+    background-color: black;
+}
+
+.contenido{
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.precio{
+    font-size: 1.4rem;
+}
+.precio::before{
+    content: '$ ';
+}
+.cuotas{
+    font-size: 1.2rem;
+}
+.envio{
+    font-size: 1em;
+    color: #619D00
+}
+
+ /* Producots Destacados */
+
+ .contenedorProductosEstrella{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorProductosEstrella h2{
+    font-size: 1.5rem;
+}
+
+.productosDestacados{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sillaGamer{
+    width: 288px;
+    height: 108px;
+    margin-top: 15px;
+    background-image: url('/img/sillasGamer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.sillaGamer span{
+    font-size: 20px;
+    color: #F3F3F3;
+    margin-right: 10px;
+    
+}
+
+.computadoras{
+    width: 288px;
+    height: 108px;
+    margin: 20px 0px;
+
+    background-image: url('/img/computadoras.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.computadoras span{
+    font-size: 20px;
+    color: #F3F3F3;
+    margin-right: 10px;
+    
+}
+
+/* Redes y Logo */
+.redesLogo{
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;}
+
+.contenedorRedes{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.contenedorRedes h3{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #F3F3F3
+}
+
+.redesList{
+    width: 50%;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.redesList li a{
+    font-size: 2rem
+}
+
+.fa-facebook-square{
+    color: #1476D0;
+}
+
+.fa-twitter-square{
+    color:#14AED0;
+}
+
+.fa-instagram{
+    color: #CE0CFF;
+}
+
+/* Footer */
+
+footer{
+    height: 3vh;
+    background-color: var(--footer-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    text-align: center;
+    font: 10px;
+}
+
+}
+
