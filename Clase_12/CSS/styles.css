@@ -1,0 +1,162 @@
+/* Configuración general de toda la página */
+*{box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif}
+/* Barra Superior */
+.barraSuperior {background-color: #201b1b;
+    width: 100%;
+    color: #F3F3F3;
+    font-size: 10px;
+    line-height: 11.72px;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    top: 4px;
+    padding: 3px 3rem;
+    flex-flow: row;
+    }
+
+.barraSuperior ul {list-style-image: url(../img/vector-barraS.png);
+    display: inline-flex;}
+.barraSuperior ul li { padding: 4px 20px;}
+/* Barra de menú principal */
+.menuPrincipal {background-color: #F0A83E;
+    background-image: url(../img/Logo-Cat&Dog.png);
+    background-position: 4rem;
+    background-repeat: no-repeat;
+    color: #F3F3F3;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    font-style: normal;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    }
+.menuPrincipal ul {list-style: none; 
+    display: inline-flex; }
+.menuPrincipal ul li { padding: 2rem; }
+.menuPrincipal #fas fa-paw {color: #FFFFFF;}
+/* Contenido para el área Principal */
+/* Sección Banner */
+.banner {background-image: url(../img/Fondo1.png);
+height: 609px;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items:flex-end;}
+.banner h2 {
+    background-color: #FFFFFF;
+    height: 54px;
+    width: 365px;
+    color:#3C2313;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+    font-style: normal;
+    padding: 9px;
+    margin: 2rem
+    }
+    .banner h4 {
+        height: 54px;
+        color: #3C2313;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        font-style: normal;
+        text-align: center;
+        margin: 0 7rem;}
+    .banner p span {
+        background-color: #F0A83E;
+        background-size: 141px 49px;
+        height: 49px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18.75px;
+        font-style: normal;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 2rem 9rem;
+        padding: 1rem;}
+/* Sección Productos */
+.productosDestacados {background-image: url('../img/patita1.png');
+        background-position:top;
+        background-repeat: no-repeat;
+        background-size: 81px 70px;
+        height: 200px;
+        margin-top: 2rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+        align-items: center;
+        }
+.productosDestacados h1 {
+    color:#3C2313;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.88px;
+    font-style: normal;}
+.productosDestacados ul {list-style: none;
+color: #666666;
+font-size: 15px;
+font-weight: 400;
+line-height: 17.58px;
+font-style: normal;
+display:inline-flex;}
+.productosDestacados ul li {padding: 2rem;}
+/* Productos */
+.SectionProductos {display: flex;
+justify-content: space-around;
+margin-bottom: 4rem;
+margin-top: 4rem;}
+.producto h4 {color:#3C2313;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 17.58px;
+    font-style: bold;
+    text-align: center;}
+.producto span {color:#F0A83E;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 17.58px;
+    font-style: normal;
+    text-align: center;
+    padding: 0 0 0 7rem;}
+/* Contenido para el pie de página */
+/* Barra de footer */
+.barraFooter{background-color: #3C2313;
+    background-image: url(../img/Logo-footer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 1100px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem;}
+.barraFooter ul {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    font-style: normal;
+    padding: 1rem;}
+    .barraFooterSub {color:#8A8787;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 11.72px;
+    font-style: normal;}
+/* Derechos Reservados */
+h6 {background-color: #222222;
+color: #F3F3F3;
+font-size: 10px;
+font-weight: 700;
+line-height: 11.72px;
+font-style: normal;
+text-align: center;
+padding: 4px;}

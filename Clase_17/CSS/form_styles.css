@@ -1,0 +1,185 @@
+.contenidoPrincipalRegistro{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos Formulario */
+
+.contenidoPrincipalRegistro form{
+    width: 50%;
+    height: 70%;
+
+    background: #00669F;
+        box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Contenido Titulo */
+.titulo{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo h2{
+    font-size: 50px;
+    color: #fff;
+}
+
+.titulo p{
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/* FieldSet Nombre y Especie */
+.nombre_especie, .fecha_archivo{
+    border-style: none;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenido{
+    height: 100px;
+    width: 45%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenido label{
+    width: 80%;
+    font-size: 25px;
+    color: white;
+}
+
+.contenido input, .contenido select{
+    padding: 20px 0px;
+    width: 80%;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    font-size: 15px;
+}
+
+/* Contenido Archivo */
+.contenidoArchivo{
+    height: 100px;
+    width: 45%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenidoArchivo label{
+    width: 80%;
+    font-size: 25px;
+    color: white;
+}
+
+/* Contenido Descripcion Y poderes (radio y check) */
+.descripcion_poderes{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-style: none;
+}
+
+
+.descripcion_poderes textarea{
+    height: 350px;
+    width: 45%;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    font-size: 15px;
+}
+
+/* Contenido Radio_Check */
+.radio_check{
+    width: 45%;
+    height: 400px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+hr{
+    width: 100%;
+}
+
+/* Contendio Check */
+.check{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.checkItem label{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.check h3{
+    font-size: 25px;
+    color: #fff;
+}
+
+/* Contendio radio */
+.radio{
+    width: 100%;
+    height: 100px;
+    margin-left: 50px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.radioItem label{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.radio h3{
+    margin: 5px 0px;
+    font-size: 25px;
+    color: #fff;
+}
+
+/* Boton */
+.btnForm{
+    width: 45%;
+    padding: 35px 0px;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}

@@ -1,0 +1,73 @@
+/* Estilo para las cartas */
+.contenidoPrincipal{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    width: 25%;
+    height: 700px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.imgFondo{
+    height: 40%;
+    width: 100%;
+}
+
+.fotoPerfil{
+    position: absolute;
+    border-radius: 50%;
+    top: 150px;
+    right: 40%;
+    width: 140px;
+    height: 140px;
+}
+
+.contenidoCarta{
+    display: flex;
+    height: 50%;
+    flex-flow: column wrap;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.contenidoCarta h3{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.contenidoCarta p{
+    text-align: left;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.contenidoCarta input[type='button']{
+    background: #00669F;
+    padding: 20px 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa-heart{
+    font-size: 35px;
+    z-index: 2;
+    color: red;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+/* masIcono */
+.fa-plus-circle{
+    color: #00669F;
+    font-size: 70px;
+}

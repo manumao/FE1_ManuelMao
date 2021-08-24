@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+:root{
+    width: 100%;
+    height: 100%;
+}
+/* Estilos Headers */
+.descuento{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: #1CD1B0;
+    padding: 10px 0px;
+}
+
+.descuento p{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+.contenedorLogo{
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100px;
+}
+
+.contenedorLogo h1{
+    font-size: 40px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.fa-store{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+/* Menu de Navegacion */
+.contenedorNav{
+    background: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+.navList{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.navList li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white
+}
+
+/* Footer */
+.footer{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer p{
+    font-size: 20px;
+    color: #fff;
+}

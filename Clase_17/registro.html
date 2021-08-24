@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Basic Styles -->
+    <link rel="stylesheet" href="/css/styles.css">
+<!-- Cards Style -->
+    <link rel="stylesheet" href="/css/card_styles.css">
+<!-- Form Styles -->
+    <link rel="stylesheet" href="/css/form_styles.css">
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4de7722395.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class='descuento'>
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class='contenedorLogo'>
+            <a href="index.html"><i class="fas fa-store"></i></a>
+            <h1>Nombre Tienda</h1>
+        </section>
+        <nav class='contenedorNav'>
+            <ul class='navList'> 
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registrarme</a></li>
+                <li><a href="login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class='contenidoPrincipalRegistro'>
+<!-- Formulario de Superheroe -->
+        <form action="">
+            <article class='titulo'>
+                <h2>Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones</p>
+            </article>
+            <fieldset class='nombre_especie'>
+                <article class='contenido'>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" required>
+                </article>
+                <article class='contenido'>
+                    <label for="especie">Especie</label>
+                    <select name="especie" required>
+                        <option value="1">Heroe</option>
+                        <option value="2">Humano</option>
+                        <option value="3">Dios</option>
+                        <option value="4">Semio Dios</option>
+                    </select>
+                </article>
+            </fieldset>
+            <fieldset class='fecha_archivo'>
+                <artcile class='contenido'>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name='fecha'>
+                </artcile>
+                <artcile class='contenidoArchivo'>
+                    <label for="archivo">Agregar Foto</label>
+                    <input type="file" name='archivo'>
+                </artcile>
+            </fieldset>
+            <fieldset class='descripcion_poderes'>
+                <textarea name="descripcion" placeholder="Descripción"></textarea>
+                <article class='radio_check'>
+                    <section class='check'>
+                        <h3>Poderes</h3>
+                        <p class='checkItem'>
+                            <input type="checkbox" name="poderes" value='volar'>
+                            <label for="poderes">Volar</label>
+                        </p>
+                        <p class='checkItem'>
+                            <input type="checkbox" name="poderes" value='inteligencia'>
+                            <label for="poderes">SuperInteligencia</label>
+                        </p>
+                        <p class='checkItem'>
+                            <input type="checkbox" name="poderes" value='laser'>
+                            <label for="poderes" >Vista de rayo láser </label>
+                        </p>
+                        <p class='checkItem'>
+                            <input type="checkbox" name="poderes" value='dinero'>
+                            <label for="poderes">Billetera gorda </label>
+                        </p>
+                    </section>
+                    <hr>
+                    <section class='radio'>
+                        <h3>Tipo de personaje</h3>
+                        <p class='radioItem'>
+                            <input type="radio" name="personaje" value='1' checked>
+                            <label for="personaje">Héroe / Heroina</label>
+                        </p>
+                        <p class='radioItem'>
+                            <input type="radio" name="personaje" value='2'>
+                            <label for="personaje">Villano / Villana</label>
+                        </p>
+                    </section>
+                </article>
+            </fieldset>
+            <input class='btnForm' type="submit" value='Añadir'>
+        </form>
+    </main>
+    <footer class='footer'>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
